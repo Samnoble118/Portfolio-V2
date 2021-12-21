@@ -1,0 +1,21 @@
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    max-width: 400px;
+    width: 100%;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #22223b;
+    color: #F2E9E4;
+    height: 80px;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+

@@ -1,0 +1,114 @@
+.home{
+    background-color: #4A4E69;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+.intro,.about-me,.projects, .contact{
+    padding: 150px;
+    color: #F2E9E4;
+    
+}
+.intro h2{
+    font-size: 80px;
+}
+
+
+.about-me h2{
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.intro{
+    margin: 0 50px 50px 50px;
+    border-style: dashed;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.about-me{
+    margin: 50px;
+    border-style: dashed;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.projects{
+    margin: 50px;
+    border-style: dashed;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.theProjectContainer{
+    display: flex;
+    
+}
+
+.aProject{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #22223b4a;
+    
+}
+
+
+.picContainer{
+    overflow: hidden;
+}
+
+
+.projects h2{
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.marvelWebPic{
+    width: 100%;
+    transition: .8s ease;
+    cursor: pointer;
+}
+
+.marvelWebPic:hover{
+    transform: scale(1.1);
+}
+
+.contact{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.contact h2{
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.contact input{
+    margin: 20px;
+    height: 50px;
+    width: 1000px;
+    background-color: #9A8C98;
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.contact button{
+    margin: 20px;
+    background-color: #C9ADA7;
+    border: none;
+    height: 40px;
+    width: 400px;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
