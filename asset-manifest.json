@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-V2/static/css/main.47c818bd.css",
-    "main.js": "/Portfolio-V2/static/js/main.95a4ca2e.js",
+    "main.css": "/Portfolio-V2/static/css/main.a642d284.css",
+    "main.js": "/Portfolio-V2/static/js/main.077b45b8.js",
     "static/js/787.92650c8a.chunk.js": "/Portfolio-V2/static/js/787.92650c8a.chunk.js",
     "static/media/Portfolio.png": "/Portfolio-V2/static/media/Portfolio.257cfc52f06a73252ecc.png",
     "static/media/Marvel-react-website.png": "/Portfolio-V2/static/media/Marvel-react-website.3800e5672455f3a8a0ec.png",
@@ -11,12 +11,12 @@
     "static/media/The-Coffee-Shop.png": "/Portfolio-V2/static/media/The-Coffee-Shop.b4baddb203e45a115645.png",
     "static/media/Tails-Adventure.png": "/Portfolio-V2/static/media/Tails-Adventure.885e9c63cf21319128a9.png",
     "index.html": "/Portfolio-V2/index.html",
-    "main.47c818bd.css.map": "/Portfolio-V2/static/css/main.47c818bd.css.map",
-    "main.95a4ca2e.js.map": "/Portfolio-V2/static/js/main.95a4ca2e.js.map",
+    "main.a642d284.css.map": "/Portfolio-V2/static/css/main.a642d284.css.map",
+    "main.077b45b8.js.map": "/Portfolio-V2/static/js/main.077b45b8.js.map",
     "787.92650c8a.chunk.js.map": "/Portfolio-V2/static/js/787.92650c8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47c818bd.css",
-    "static/js/main.95a4ca2e.js"
+    "static/css/main.a642d284.css",
+    "static/js/main.077b45b8.js"
   ]
 }
