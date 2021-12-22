@@ -9,8 +9,10 @@
     color: #F2E9E4;
     
 }
-.intro h2{
-    font-size: 80px;
+
+.intro h1{
+    font-size: 100px;
+    font-family: 'Russo One'
 }
 
 
@@ -19,28 +21,11 @@
     font-size: 40px;
 }
 
-.intro{
-    margin: 0 50px 50px 50px;
-    border-style: dashed;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-}
-
-.about-me{
-    margin: 50px;
-    border-style: dashed;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-}
-
-.projects{
-    margin: 50px;
-    border-style: dashed;
-    border-left: none;
-    border-right: none;
-    border-top: none;
+.about-me, .projects, .intro{
+    margin: 0 50px;
+    border: 0 0 2px 0;
+    border-color: #515470;
+    border-style: none none solid none;
 }
 
 .theProjectContainer{
@@ -82,33 +67,13 @@
     transform: scale(1.1);
 }
 
-.contact{
-    display: inline-block;
-    justify-content: space-around;
-}
+
 
 .contact h2{
     margin: 20px 0;
     font-size: 40px;
 }
 
-.contact input{
-    margin: 20px;
-    height: 50px;
-    width: 1000px;
-    background-color: #9A8C98;
-    border: none;
-    font-weight: bolder;
-    font-size: larger;
-}
-
-.contact button{
-    margin: 20px;
-    background-color: #C9ADA7;
-    border: none;
-    height: 40px;
-    width: 400px;
-    font-weight: bolder;
-    font-size: larger;
+.socail-icon{
     cursor: pointer;
 }

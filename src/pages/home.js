@@ -7,6 +7,9 @@ import ShinyToDo from './Images/Shiny-Checklist-screenshot.png';
 import PrevPortfo from './Images/Portfolio.png';
 import CoffeeShop from './Images/The-Coffee-Shop.png';
 import CoffeeWeb from './Images/Coffee-website-screenshot.png';
+import Github from './Images/github.png';
+import LinkedIn from './Images/linkedin.png';
+import Mail from './Images/mail.png';
 
 
 
@@ -14,7 +17,7 @@ function home() {
     return (
         <div className="home">
             <div className="intro">
-                <h1>Hi I'm Sam, a web developer from Worcester.</h1>
+                <h1>Hi I'm Sam, a web developer from Worcester UK.</h1>
                 
             </div>
 
@@ -141,10 +144,9 @@ function home() {
             <div className="contact">
 
                 <h2>Connect with me</h2>
-                <input type="email" placeholder="Email" required/>
-                <input type="text" placeholder="Message" required/>
-                <br />
-                <button>Send Message</button>
+                <img className="socail-icon" src={Github} alt="Github" />
+                <img className="socail-icon" src={LinkedIn} alt="Linked In" />
+                <img className="socail-icon" src={Mail} alt="E-Mail" />
 
             </div>
 
