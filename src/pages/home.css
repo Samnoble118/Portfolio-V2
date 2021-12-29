@@ -194,7 +194,7 @@
     
   }
 
-  @media only screen and (max-width: 768px) {
+  /* @media only screen and (max-width: 768px) {
     
     .intro,.about-me,.projects, .contact{
         padding: 10px
@@ -267,4 +267,4 @@
     }
     
     
-  }
+  } */
