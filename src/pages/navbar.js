@@ -6,10 +6,10 @@ function navbar() {
         <div className="navbar">
             <h1>SN</h1>
             <ul className="nav-items">
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <a href="#home-section"><li>Home</li></a>
+                <a href="#about-section"><li>About</li></a>
+                <a href="#projects-section"><li>Projects</li></a>
+                <a href="#contact-section"><li>Contact</li></a>
             </ul>
         </div>
     )
