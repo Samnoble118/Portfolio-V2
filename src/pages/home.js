@@ -11,6 +11,7 @@ import Github from './Images/github.png';
 import LinkedIn from './Images/linkedin.png';
 import Mail from './Images/mail.png';
 import Sam from './Images/Sam-2.jpg';
+import PortfolioV2 from './Images/Portfolio-V2.png';
 
 
 
@@ -149,7 +150,7 @@ function home() {
                         <p>This current website.</p><br />
                         </div>
                         <div className="picContainer">
-                        <a href="https://samnoble118.github.io/Portfolio-V2/"><img className="marvelWebPic" src={PokedexWeb} alt="Marvel Website" /></a>
+                        <a href="https://samnoble118.github.io/Portfolio-V2/"><img className="marvelWebPic" src={PortfolioV2} alt="Marvel Website" /></a>
                         </div>
                     </div>
 
