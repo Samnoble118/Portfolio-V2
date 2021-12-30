@@ -94,7 +94,7 @@ function home() {
                         <div>
                         <h3>Pokemon To-Do List</h3>
                         <br />
-                        <p>A checklist to help pokemon hunters keep track on their shiny hunting.</p><br />
+                        <p>A Pokemon shiny-hunter check Todo list.</p><br />
                         </div>
                         <div className="picContainer">
                         <a href="https://samnoble118.github.io/Shiny-Checklist/" target='_blank'><img className="marvelWebPic" src={ShinyToDo} alt="Marvel Website" /></a>

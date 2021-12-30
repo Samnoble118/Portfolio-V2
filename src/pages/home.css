@@ -117,21 +117,18 @@
     transform: rotate(360deg);
 }
 
-@media only screen and (max-width: 600px) {
+
+  @media only screen and (max-width: 1100px) {
     
-    .intro,.about-me,.projects, .contact{
-        padding: 10px;
-        color: #F2E9E4;
-        margin: 0 10px;
-    }
+    
 
     
     .intro h1{
-        font-size: 40px;
+        font-size: 80px;
         margin: 50px 0;
     }
     .intro-heads {
-        font-size: 10px;
+        font-size: 15px;
         margin: 50px 0;
     }
     
@@ -158,25 +155,13 @@
     }
 
     .about-me p{
-        font-size: 100%;
+        font-size: 25px;
     }
 
     .picBox{
         margin: 0 20px;
     }
 
-    .theProjectContainer{
-        display: inline-block;
-        
-    }
-    
-    .aProject{
-        
-        width: 80%;
-        
-    }
-    
-    
     .contact h2{
         margin: 20px 0;
         font-size: 30px;
@@ -184,7 +169,7 @@
     
     .socail-icon{
         cursor: pointer;
-        width: 60px;
+        width: 80px;
     }
 
     .social-icon-container{
@@ -193,78 +178,115 @@
     
     
   }
-
-  /* @media only screen and (max-width: 768px) {
+  
+  @media only screen and (max-width: 980px) {
     
+
+
     .intro,.about-me,.projects, .contact{
-        padding: 10px
+        padding: 70px;
+        
+        
     }
 
-    
-    .intro h1{
+    .intro h1 {
         font-size: 60px;
-        margin: 70px 0;
+        
     }
+    
+
+
     .intro-heads {
-        font-size: 20px;
-        margin: 70px 0;
+        font-size: 15px;
+        margin: 5px 0;
     }
     
-    .intro-heads-container{
-        display: block;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .find-more{
-        text-align: center;
-        margin: 50px;
-        font-size: x-large;
-    }
-
-    .samPic{
-        width: 200px;
-       margin: 20px;
-    }
-    
-
-    .about-me{
-        height: 100vh;
-    }
-
     .about-me p{
-        font-size: 25px;
+        font-size: 20px;
     }
 
-    .picBox{
-        margin: 0 20px;
-    }
-
+    
     .theProjectContainer{
         display: inline-block;
         
     }
+
+    .aProject{
+        
+        width: 100%;
+        
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
     
+
+    .about-me p{
+        font-size: 15px;
+    }
+
+    .intro,.about-me,.projects, .contact{
+        padding: 20px;
+        
+        
+    }
+
+
+  }
+
+  @media only screen and (max-width: 430px) {
+    
+
+    .about-me p{
+        font-size: 15px;
+    }
+
+    .intro,.about-me,.projects, .contact{
+        padding: 5px;
+        
+    }
+
+    .samPic{
+        width: 100px
+    }
+
+    .find-more{
+        text-align: center;
+        margin: 50px 0;
+        font-size: 15px;
+    }
+
+    .socail-icon{
+    
+        width: 30px;
+    }
+
+    .intro h1, .intro h2, .about-me h2, .projects h2, .contact h2{
+        font-size: 20px;
+    }
+
+    .about-me{
+        margin: 10px;
+    }
+
+    .projects{
+        
+        margin: 1px;
+        
+    }
     .aProject{
         
         width: 80%;
         
     }
-    
-    
-    .contact h2{
-        margin: 20px 0;
-        font-size: 30px;
-    }
-    
-    .socail-icon{
-        cursor: pointer;
-        width: 60px;
-    }
 
-    .social-icon-container{
-        text-align: center;
+  }
+
+  @media only screen and (max-height: 650px) {
+
+
+    .about-me p{
+        font-size: 12px;
     }
-    
-    
-  } */
+  }
