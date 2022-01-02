@@ -6,17 +6,24 @@
 
 .intro{
     height: 100vh;
-    background-color: #4A4E69;;
+    background-color: #4A4E69;
 }
 
 .intro-heads-container{
     display: flex;
+    flex-direction: column;
+    gap: 70px;
     justify-content: center;
     align-items: center;
 }
 
-.intro,.about-me,.projects, .contact{
-    padding: 150px;
+.intro{
+    padding: 150px 0;
+    color: #F2E9E4;
+}
+
+.about-me,.projects, .contact{
+    padding: 80px 150px;
     color: #F2E9E4;
     
 }
@@ -49,7 +56,8 @@
 .samPic{
     width: 300px;
     border-radius: 150px;
-    border: white 20px
+    border: white 20px;
+   
 }
 
 
@@ -102,7 +110,9 @@
     transform: scale(1.1);
 }
 
-
+.contact{
+    background-color: #22223B;
+}
 
 .contact h2{
     margin: 20px 0;
@@ -112,9 +122,15 @@
 .socail-icon{
     cursor: pointer;
     transition: transform .7s ease-in-out;
+    margin: 20px;
+    width: 80px;
 }
 .socail-icon:hover{
     transform: rotate(360deg);
+}
+
+.social-icon-container{
+    text-align: center;
 }
 
 
@@ -136,6 +152,7 @@
         display: block;
         align-items: center;
         text-align: center;
+        margin: 50px 0;
     }
     
     .find-more{
@@ -184,9 +201,13 @@
 
 
     .intro,.about-me,.projects, .contact{
-        padding: 70px;
+        padding: 40px;
         
         
+    }
+
+    .intro-heads-container{
+        margin: 100px 0;
     }
 
     .intro h1 {
@@ -194,6 +215,13 @@
         
     }
     
+    .projects{
+        display: inline-block;
+    }
+    
+    .aProject{
+        margin: 20px 0;
+    }
 
 
     .intro-heads {
@@ -208,13 +236,17 @@
     
     .theProjectContainer{
         display: inline-block;
-        
     }
 
     .aProject{
         
         width: 100%;
         
+    }
+
+    .socail-icon{
+    
+        width: 50px;
     }
 
   }
@@ -232,6 +264,10 @@
         
     }
 
+    .projects{
+        text-align: ce;
+    }
+
 
   }
 
@@ -247,8 +283,17 @@
         
     }
 
+    .intro-heads{
+        padding: 0;
+    }
+
     .samPic{
-        width: 100px
+        width: 150px;
+        margin: 100px 0;
+    }
+
+    .intro-heads-container{
+        margin: 200px 0;
     }
 
     .find-more{
@@ -272,14 +317,10 @@
 
     .projects{
         
-        margin: 1px;
+        margin: 20px;
         
     }
-    .aProject{
-        
-        width: 80%;
-        
-    }
+    
 
   }
 
