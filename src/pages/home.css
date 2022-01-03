@@ -5,8 +5,10 @@
 
 
 .intro{
-    height: 100vh;
+    height: 120vh;
     background-color: #4A4E69;
+    padding: 100px 0;
+    color: #F2E9E4;
 }
 
 .intro-heads-container{
@@ -17,10 +19,7 @@
     align-items: center;
 }
 
-.intro{
-    padding: 150px 0;
-    color: #F2E9E4;
-}
+
 
 .about-me,.projects, .contact{
     padding: 80px 150px;
@@ -55,13 +54,9 @@
 
 .samPic{
     width: 300px;
-    border-radius: 150px;
-    border: white 20px;
+    border-radius: 50%;
    
 }
-
-
-
 
 
 .about-me, .projects, .intro{
@@ -141,11 +136,11 @@
     
     .intro h1{
         font-size: 80px;
-        margin: 50px 0;
+       
     }
     .intro-heads {
         font-size: 15px;
-        margin: 50px 0;
+        
     }
     
     .intro-heads-container{
@@ -162,14 +157,12 @@
     }
 
     .samPic{
-        width: 150px;
-       margin: 20px;
+        width: 30%;
+        margin: 20px;
     }
     
 
-    .about-me{
-        height: 100vh;
-    }
+   
 
     .about-me p{
         font-size: 25px;
@@ -214,6 +207,11 @@
         font-size: 60px;
         
     }
+
+    .samPic{
+        width: 40%;
+        
+    }
     
     .projects{
         display: inline-block;
@@ -256,6 +254,7 @@
 
     .about-me p{
         font-size: 15px;
+        margin: 30px 0;
     }
 
     .intro,.about-me,.projects, .contact{
@@ -324,6 +323,14 @@
         
         margin: 20px;
         
+    }
+
+    .contact{
+        padding: 20px 20px;
+    }
+
+    .contact h2{
+        margin: 0;
     }
     
 

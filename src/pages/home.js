@@ -61,7 +61,7 @@ function home() {
                         <div>
                         <h3>Marvel Website using React</h3>
                         <br />
-                        <p>An information website around the Marvel Cinematic Universe using React. (Work in progress)</p><br />
+                        <p>An information website around the Marvel Cinematic Universe using React. </p><br />
                         </div>
                         <div className="picContainer">
                         <a href="https://samnoble118.github.io/React-Marvel-Website/" target='_blank'><img className="marvelWebPic" src={marvelWebsite} alt="Marvel Website" /></a>
