@@ -70,7 +70,6 @@
     /* .burger{
         display: flex;
     } */
-
     .nav-items.active {
         display: flex;
     }

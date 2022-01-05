@@ -20,12 +20,12 @@ function navbar() {
 
     //     const isMobile = windowDimention <= 640;
 
-    const burger = document.getElementsByClassName('burger')[0]
-    const navItems = document.getElementsByClassName('nav-items')[0]
+    // const burger = document.getElementsByClassName('burger')[0]
+    // const navItems = document.getElementsByClassName('nav-items')[0]
 
-    burger.addEventListener('click', () => {
-    navItems.classList.toggle('active')
-    })
+    // burger.addEventListener('click', () => {
+    // navItems.classList.toggle('active')
+    // })
 
 
     return (
