@@ -13,6 +13,12 @@ import Mail from './Images/mail.png';
 import Sam from './Images/Sam-2.jpg';
 import PortfolioV2 from './Images/Portfolio-V2.png';
 import ScrollAnimation from 'react-animate-on-scroll';
+import BritFloors from './Images/Brit-Floors.png';
+import LifeBuys from './Images/Lifebuys.png';
+import Biowarehouse from './Images/Biowarehouse.png';
+import MrsWifey from './Images/Mrs-Wifey.png';
+import JulianSmith from './Images/Julian-Smith.png';
+import Zircom from './Images/Coming-soon.jpeg';
 
 
 
@@ -38,7 +44,7 @@ function home() {
 
             <ScrollAnimation animateIn="fadeIn" delay='500' animateOnce='true'>
             <div id="about-section" className="about-me " >
-                <h2>About</h2>
+                <h2>My Story</h2>
                 <div className="picBox">
                 
                 
@@ -50,18 +56,134 @@ function home() {
             </div>
             </ScrollAnimation>
 
+
+            <ScrollAnimation animateIn="fadeIn" delay='500' animateOnce='true'>
+
             <div id="projects-section" className="projects">
                 <h2>Projects</h2>
+
+            <div className="btnSection">
+                <div className="btn1Sec">
+                <a href="#commericalProjects"><button class="btn draw-border">Commercial Projects</button></a>
+                <p>Check out some of the projects that I have built and am working on during my time working as a web developer for Chameleon Web Services.</p>
+                </div>
+                <div className="btn1Sec">
+                <a href="#personalProjects"><button class="btn draw-border">Personal Projects</button></a>
+                <p>Check out some of the projects that I have built and am working on during my spare time at home.</p>
+                </div>
+            </div>
+
+
+            <div className="proIntoSec" id="commericalProjects">
+                <h3>Commercial Projects</h3>
+                <p>Current projects that I have built and am currently building during my time as a Web Developer at Chameleon Web Services.</p>
+            </div>
 
                 <div className="theProjectContainer">
                 
                     
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Brit Floors</h3>
+                    <br />
+                    <p className="proSmlDesc">A live site.</p>
+                    <p>An E-Commerce website that I have built using WordPress and WooCommerce for a client who runs a flooring company.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="http://britfloors.co.uk/" target='_blank'><img className="marvelWebPic" src={BritFloors} alt="BritFloors Website" /></a>
+                    </div>
+                </ScrollAnimation>
+               
+
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Lifebuys</h3>
+                    <br />
+                    <p className="proSmlDesc">Coming soon... Still in development</p>
+                    <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="http://79.170.40.33/lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={LifeBuys} alt="Lifebuys Website" /></a>
+                    </div>
+                </ScrollAnimation>
+                </div>
+
+                <div className="theProjectContainer">
+                
+                    
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Biowarehouse</h3>
+                    <br />
+                    <p className="proSmlDesc">A live site.</p>
+                    <p>An E-Commerce website that I have built using WordPress and WooCommerce for a client who sells biodegrable products online.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="https://www.biowarehouse.co.uk/" target='_blank'><img className="marvelWebPic" src={Biowarehouse} alt="Biowarehouse Website" /></a>
+                    </div>
+                </ScrollAnimation>
+               
+
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Mrs Wifey</h3>
+                    <br />
+                    <p className="proSmlDesc">Coming soon... Still in development</p>
+                    <p>An E-Commerce website that I have built using WordPress and WooCommerce, a bridal online shop that sells clothes for the big day.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="http://79.170.40.33/lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={MrsWifey} alt="Mrs Wifey Website" /></a>
+                    </div>
+                </ScrollAnimation>
+                </div>
+
+                <div className="theProjectContainer">
+                
+                    
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Julian Smith</h3>
+                    <br />
+                    <p className="proSmlDesc">Coming soon... Still in development.</p>
+                    <p>An informational website that I have built using WordPress and WooCommerce for Julian Smith who featured on Brition's Got Talent in 2009.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="http://176.32.230.27/juliansmith.co.uk/" target='_blank'><img className="marvelWebPic" src={JulianSmith} alt="Julian Sax Website" /></a>
+                    </div>
+                </ScrollAnimation>
+               
+
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Zircom</h3>
+                    <br />
+                    <p className="proSmlDesc">Coming soon... Still in development.</p>
+                    <p>An informational website for an electrical service company called Zircom, built with.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="#" target='_blank'><img className="marvelWebPic" src={Zircom} alt="Zircom Website" /></a>
+                    </div>
+                </ScrollAnimation>
+                </div>
+
+            
+            <div className="proIntoSec" id="personalProjects">
+            {/* <ScrollAnimation animateIn="fadeIn" delay='500' animateOnce='true'> */}
+            <div >
+                <h3>Personal Projects</h3>
+                <p>Projects that I have built and am currently building in my spare time, using HTML, CSS, JavaScript, React and Bootstrap.</p>
+            </div>
+            {/* </ScrollAnimation> */}
+            </div> 
+
+                <div className="theProjectContainer">
+                
                     
                     <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
                         <div>
-                        <h3>Marvel Website using React</h3>
+                        <h3>Marvel Website built with React</h3>
                         <br />
-                        <p>An information website around the Marvel Cinematic Universe using React. </p><br />
+                        <p>An information website around the Marvel Cinematic Universe built with React. </p><br />
                         </div>
                         <div className="picContainer">
                         <a href="https://samnoble118.github.io/React-Marvel-Website/" target='_blank'><img className="marvelWebPic" src={marvelWebsite} alt="Marvel Website" /></a>
@@ -163,6 +285,7 @@ function home() {
                 </div>
 
             </div>
+            </ScrollAnimation>
 
             <div id="contact-section" className="contact">
 

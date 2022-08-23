@@ -60,16 +60,16 @@
   @media only screen and (max-width: 800px) {
     .nav-items{
         gap: 50px;
-        /* display: none; */
+        display: none;
     }
 
     .navbar{
         flex-direction: column;
     }
 
-    /* .burger{
+    .burger{
         display: flex;
-    } */
+    }
     .nav-items.active {
         display: flex;
     }
