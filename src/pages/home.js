@@ -29,7 +29,7 @@ function home() {
                 <div className="intro-heads-container">
                 <div className="intro-heads">
                     <h1 class="animate__animated animate__bounce">Hi I'm Sam.</h1>
-                    <h2>I'm a junior web developer based in the UK.</h2>
+                    <h2>I'm a Web Developer based in the UK.</h2>
                 </div>
                 <div className="intro-pic-container">
                     <img className="samPic" src={Sam} alt="Sam" />
@@ -132,7 +132,7 @@ function home() {
                     <p>An E-Commerce website that I have built using WordPress and WooCommerce, a bridal online shop that sells clothes for the big day.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="http://79.170.40.33/lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={MrsWifey} alt="Mrs Wifey Website" /></a>
+                    <a href="http://176.32.230.11/mrswifey.co.uk/" target='_blank'><img className="marvelWebPic" src={MrsWifey} alt="Mrs Wifey Website" /></a>
                     </div>
                 </ScrollAnimation>
                 </div>
@@ -158,7 +158,7 @@ function home() {
                     <h3>Zircom</h3>
                     <br />
                     <p className="proSmlDesc">Coming soon... Still in development.</p>
-                    <p>An informational website for an electrical service company called Zircom, built with.</p><br />
+                    <p>An informational website for an electrical service company called Zircom, built with WordPress.</p><br />
                     </div>
                     <div className="picContainer">
                     <a href="#" target='_blank'><img className="marvelWebPic" src={Zircom} alt="Zircom Website" /></a>
