@@ -18,7 +18,9 @@ import LifeBuys from './Images/Lifebuys.png';
 import Biowarehouse from './Images/Biowarehouse.png';
 import MrsWifey from './Images/Mrs-Wifey.png';
 import JulianSmith from './Images/Julian-Smith.png';
-import Zircom from './Images/Coming-soon.jpeg';
+import Zircom from './Images/zircom.png';
+import UnapolBrit from './Images/unapol-british.png';
+import LapalGrange from './Images/lapal-grange.png';
 
 
 
@@ -47,11 +49,20 @@ function home() {
                 <h2>My Story</h2>
                 <div className="picBox">
                 
-                
-                <p>I am a keen individual who enjoys learning new skills and accepting new challenges. I have worked for many years as a personal trainer and fitness instructor and recently have decided on a career change. <br /><br />
+                <h4>About Me</h4>
+                <p>I am a keen and dedicated individual who enjoys learning new skills and accepting new challenges! I have always been interested in technology ever since I was a young kid, always having the latest games console, committing to every game until it was at 100% completion. I studied GCSE ICT at school and quickly became my family and friends go-to person for resolving technical issues. My main expertise are HTML, CSS, JavaScript, React, WordPress, PHP, Bootsrap and I am always keen to learn much more. <br /><br /></p>
 
-                From doing well in IT back in school and college, I have decided to pursue a career in the IT industry. Over the last year, I have been studying and learning web development and It's something I have become really passionate about. When I'm not training my personal training clients, I find myself building websites around my personal interests, doing continuous research and learning new web development languages. <br />
-                I also love playing video games and researching how they are made. As a developer my main expertise are HTML, CSS, JavaScript and React, and I am keen to learn much more.</p>
+                <h4>My Story</h4>
+                <p>Back in high school, my main subject of interest was computers and technology. I thoroughly enjoyed ICT lessons and I ended up achieving four A*’s for the subject. Although IT was always a huge passion for me, after school I ended up going down a different route by taking on an apprenticeship within the fitness industry. My parents owned their very own health clubs, so I was able to study to become a qualified Personal Trainer. During those ten years of working in the fitness industry, I gained a huge amount of confidence, knowledge and some key skills.
+                <br /><br />
+                Just before the lockdown in 2020, I was working for a leisure centre on a self employed basis so that when the lockdown hit, I ended up losing my job. However, this did not stop me. I was determined to keep busy and I always do battle with the barriers that get put in front of me. I used the power of technology to advertise my expertise as a fitness trainer to run online personal training and group fitness classes. I reached out to everybody who was stuck inside their houses, unable to work, not able to go to the gym, and I got them moving in their own homes, completely virtually. My clients revealed that they were happier with their training and actually fitter than what they were before the lockdown started! The success of my online business continued and I was able to keep training people online, even when the lockdown eased, this also transitioned to mobile personal training at people’s homes.
+                <br /><br />
+                So, how did I become a web developer? After overcoming the huge challenge of creating a business when all of my tools and facilities were taken away from me, I decided to think about where I wanted to take my career to next. I knew how much I enjoyed working with technology and I wanted to take it to the next level and revisit some of the skills I learned back in school and college. In between my fitness training sessions, I signed up to Codecademy and started to learn some programming languages, starting with HTML, then CSS and Javascript. After having built up enough knowledge, I started building some of my own projects which included various websites, a game and some other projects. This was only the beginning. I carried on learning as much as I could, I started using YouTube to expand my knowledge and to see what other developers were making and I started using frameworks and libraries such as React and Bootstrap.
+                <br /><br />
+                Eventually I managed to find myself a job as a Front End Web Developer, working for an agency called Chameleon Web Services, where I started building websites for real clients! At Chameleon, every day is a school day, I am learning so many new things and putting my skills into practice. I now have a strong skill set of working with CMS platforms such as WordPress and great attention to detail when it comes to web design. My knowledge has expanded to include skills like PHP, jQuery, working with SEO, website hosting, SSL certificates, WordPress plugins, accessing and writing WordPress core files and general problem solving of errors that occur day to day.
+                <br /><br />
+                As I continue to develop, learn and expand my knowledge, I am excited to see what lies next for me as I am a very quick learner, have patience when it comes to problem solving, strive to accept and accomplish new challenges and always looking to progress!
+                </p>
                 </div>
             </div>
             </ScrollAnimation>
@@ -161,7 +172,36 @@ function home() {
                     <p>An informational website for an electrical service company called Zircom, built with WordPress.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="#" target='_blank'><img className="marvelWebPic" src={Zircom} alt="Zircom Website" /></a>
+                    <a href="http://79.170.40.231/zircom2021.co.uk/" target='_blank'><img className="marvelWebPic" src={Zircom} alt="Zircom Website" /></a>
+                    </div>
+                </ScrollAnimation>
+                </div>
+
+                <div className="theProjectContainer">
+                
+                    
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Unapolagetically British</h3>
+                    <br />
+                    <p className="proSmlDesc">Coming soon... Still in development.</p>
+                    <p>An E-Commerce website built using WordPress and WooCommerce, for a client who sells unique clothing.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="http://79.170.40.247/unapol-brit.com/" target='_blank'><img className="marvelWebPic" src={UnapolBrit} alt="Unapolagetically British Website" /></a>
+                    </div>
+                </ScrollAnimation>
+               
+
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Lapal Grange</h3>
+                    <br />
+                    <p className="proSmlDesc">Coming soon... Still in development.</p>
+                    <p>An informational website for a preschool based in Halesowen, a design to look like a school's clipboard, built with WordPress.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="http://176.32.230.250/lapalgrange2021.co.uk/" target='_blank'><img className="marvelWebPic" src={LapalGrange} alt="Lapal Grange Website" /></a>
                     </div>
                 </ScrollAnimation>
                 </div>

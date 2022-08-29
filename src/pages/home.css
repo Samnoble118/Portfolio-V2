@@ -67,6 +67,11 @@
     border-style: none none solid none;
 }
 
+.picBox h4{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
 /* My Projects Section */
 
 .theProjectContainer{
