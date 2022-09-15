@@ -110,7 +110,7 @@ function home() {
                     <div>
                     <h3>Lifebuys</h3>
                     <br />
-                    <p className="proSmlDesc">Coming soon... Still in development</p>
+                    <p className="proSmlDesc">Still in development</p>
                     <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis.</p><br />
                     </div>
                     <div className="picContainer">
@@ -139,7 +139,7 @@ function home() {
                     <div>
                     <h3>Mrs Wifey</h3>
                     <br />
-                    <p className="proSmlDesc">Coming soon... Still in development</p>
+                    <p className="proSmlDesc">Still in development</p>
                     <p>An E-Commerce website that I have built using WordPress and WooCommerce, a bridal online shop that sells clothes for the big day.</p><br />
                     </div>
                     <div className="picContainer">
@@ -155,7 +155,7 @@ function home() {
                     <div>
                     <h3>Julian Smith</h3>
                     <br />
-                    <p className="proSmlDesc">Coming soon... Still in development.</p>
+                    <p className="proSmlDesc">Still in development.</p>
                     <p>An informational website that I have built using WordPress and WooCommerce for Julian Smith who featured on Brition's Got Talent in 2009.</p><br />
                     </div>
                     <div className="picContainer">
@@ -168,7 +168,7 @@ function home() {
                     <div>
                     <h3>Zircom</h3>
                     <br />
-                    <p className="proSmlDesc">Coming soon... Still in development.</p>
+                    <p className="proSmlDesc">Still in development.</p>
                     <p>An informational website for an electrical service company called Zircom, built with WordPress.</p><br />
                     </div>
                     <div className="picContainer">
@@ -184,7 +184,7 @@ function home() {
                     <div>
                     <h3>Unapolagetically British</h3>
                     <br />
-                    <p className="proSmlDesc">Coming soon... Still in development.</p>
+                    <p className="proSmlDesc">Still in development.</p>
                     <p>An E-Commerce website built using WordPress and WooCommerce, for a client who sells unique clothing.</p><br />
                     </div>
                     <div className="picContainer">
@@ -197,7 +197,7 @@ function home() {
                     <div>
                     <h3>Lapal Grange</h3>
                     <br />
-                    <p className="proSmlDesc">Coming soon... Still in development.</p>
+                    <p className="proSmlDesc">Still in development.</p>
                     <p>An informational website for a preschool based in Halesowen, a design to look like a school's clipboard, built with WordPress.</p><br />
                     </div>
                     <div className="picContainer">
