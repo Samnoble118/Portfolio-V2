@@ -155,11 +155,11 @@ function home() {
                     <div>
                     <h3>Julian Smith</h3>
                     <br />
-                    <p className="proSmlDesc">Still in development.</p>
+                    <p className="proSmlDesc">A live site.</p>
                     <p>An informational website that I have built using WordPress and WooCommerce for Julian Smith who featured on Brition's Got Talent in 2009.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="http://176.32.230.27/juliansmith.co.uk/" target='_blank'><img className="marvelWebPic" src={JulianSmith} alt="Julian Sax Website" /></a>
+                    <a href="http://juliansmithsax.co.uk/" target='_blank'><img className="marvelWebPic" src={JulianSmith} alt="Julian Sax Website" /></a>
                     </div>
                 </ScrollAnimation>
                
