@@ -11,6 +11,7 @@ import Github from './Images/github.png';
 import LinkedIn from './Images/linkedin.png';
 import Mail from './Images/mail.png';
 import Sam from './Images/Sam-2.jpg';
+import SamNew from './Images/Sam-LinkdIn-Profile-pic.JPG';
 import PortfolioV2 from './Images/Portfolio-V2.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 import BritFloors from './Images/Brit-Floors.png';
@@ -21,6 +22,8 @@ import JulianSmith from './Images/Julian-Smith.png';
 import Zircom from './Images/zircom.png';
 import UnapolBrit from './Images/unapol-british.png';
 import LapalGrange from './Images/lapal-grange.png';
+import EmpireSS from './Images/empire-ss-website.png';
+import HandlesatHeart from './Images/Handles-at-Heart.png';
 
 
 
@@ -34,7 +37,7 @@ function home() {
                     <h2>I'm a Web Developer based in the UK.</h2>
                 </div>
                 <div className="intro-pic-container">
-                    <img className="samPic" src={Sam} alt="Sam" />
+                    <img className="samPic" src={SamNew} alt="Sam" />
                 </div>
                 </div>
                
@@ -197,11 +200,40 @@ function home() {
                     <div>
                     <h3>Lapal Grange</h3>
                     <br />
-                    <p className="proSmlDesc">Still in development.</p>
+                    <p className="proSmlDesc">A Live Site.</p>
                     <p>An informational website for a preschool based in Halesowen, a design to look like a school's clipboard, built with WordPress.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="http://176.32.230.250/lapalgrange2021.co.uk/" target='_blank'><img className="marvelWebPic" src={LapalGrange} alt="Lapal Grange Website" /></a>
+                    <a href="https://lapalgrangepreschool.co.uk/" target='_blank'><img className="marvelWebPic" src={LapalGrange} alt="Lapal Grange Website" /></a>
+                    </div>
+                </ScrollAnimation>
+                </div>
+
+                <div className="theProjectContainer">
+                
+                    
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Empire Security Services</h3>
+                    <br />
+                    <p className="proSmlDesc">A Live Site.</p>
+                    <p>A brochure website to advertise the different services that Empire provides. Built on WordPress.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="http://empiress.co.uk/" target='_blank'><img className="marvelWebPic" src={EmpireSS} alt="Empire Website" /></a>
+                    </div>
+                </ScrollAnimation>
+               
+
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Handles at Heart</h3>
+                    <br />
+                    <p className="proSmlDesc">Still in development.</p>
+                    <p>An E-Commerce website for a company who sells various handles for doors, built with WordPress and WooCommerce.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="http://217.199.187.198/handlesatheart.co.uk/" target='_blank'><img className="marvelWebPic" src={HandlesatHeart} alt="Handles at Heart Website" /></a>
                     </div>
                 </ScrollAnimation>
                 </div>
