@@ -24,6 +24,8 @@ import UnapolBrit from './Images/unapol-british.png';
 import LapalGrange from './Images/lapal-grange.png';
 import EmpireSS from './Images/empire-ss-website.png';
 import HandlesatHeart from './Images/Handles-at-Heart.png';
+import BRMPaddockPass from './Images/BRM-paddock-pass.png';
+import ChainFree from './Images/Chain-free.png';
 
 
 
@@ -113,11 +115,40 @@ function home() {
                     <div>
                     <h3>Lifebuys</h3>
                     <br />
-                    <p className="proSmlDesc">Still in development</p>
+                    <p className="proSmlDesc">A live site</p>
                     <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="http://79.170.40.33/lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={LifeBuys} alt="Lifebuys Website" /></a>
+                    <a href="https://lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={LifeBuys} alt="Lifebuys Website" /></a>
+                    </div>
+                </ScrollAnimation>
+                </div>
+
+                <div className="theProjectContainer">
+                
+                    
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>BRM Paddock Pass</h3>
+                    <br />
+                    <p className="proSmlDesc">A live site.</p>
+                    <p>An brochure website for BRM Paddock Pass which allows their customers to view events and purchase online memberships.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="https://brmpaddockpass.co.uk/" target='_blank'><img className="marvelWebPic" src={BRMPaddockPass} alt="BRM Paddock Pass Website" /></a>
+                    </div>
+                </ScrollAnimation>
+               
+
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Chain Free Property Buyers</h3>
+                    <br />
+                    <p className="proSmlDesc">Still in development</p>
+                    <p>A website for property buyers that allows customers to use the postcode lookup feature to request a quote for their property.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="http://176.32.230.46/chainfree.co.uk/" target='_blank'><img className="marvelWebPic" src={ChainFree} alt="Chain Free Website" /></a>
                     </div>
                 </ScrollAnimation>
                 </div>
