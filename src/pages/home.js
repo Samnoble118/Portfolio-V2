@@ -103,10 +103,11 @@ function home() {
                     <h3>Brit Floors</h3>
                     <br />
                     <p className="proSmlDesc">A live site.</p>
-                    <p>An E-Commerce website that I have built using WordPress and WooCommerce for a client who runs a flooring company.</p><br />
+                    <p>Brit Floors is an E-Commerce website that I have designed and built using WordPress and WooCommerce. <br /> I have built a flooring calculator on the product pages using jQuery and ACF to pull through product information.
+                    </p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="http://britfloors.co.uk/" target='_blank'><img className="marvelWebPic" src={BritFloors} alt="BritFloors Website" /></a>
+                    <a href="https://britfloors.co.uk/" target='_blank'><img className="marvelWebPic" src={BritFloors} alt="BritFloors Website" /></a>
                     </div>
                 </ScrollAnimation>
                
@@ -116,7 +117,7 @@ function home() {
                     <h3>Lifebuys</h3>
                     <br />
                     <p className="proSmlDesc">A live site</p>
-                    <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis.</p><br />
+                    <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis. <br /> I used CSVs and XML to import and configure the product data. <br /><br /> </p><br />
                     </div>
                     <div className="picContainer">
                     <a href="https://lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={LifeBuys} alt="Lifebuys Website" /></a>
@@ -132,7 +133,9 @@ function home() {
                     <h3>BRM Paddock Pass</h3>
                     <br />
                     <p className="proSmlDesc">A live site.</p>
-                    <p>An brochure website for BRM Paddock Pass which allows their customers to view events and purchase online memberships.</p><br />
+                    <p>A brochure website for BRM Paddock Pass which allows their customers to view events and purchase online memberships. <br /> Using mailchimp, customers will receive emails relevant to the events they subscribe to.
+                    <br /><br /><br />
+                    </p><br />
                     </div>
                     <div className="picContainer">
                     <a href="https://brmpaddockpass.co.uk/" target='_blank'><img className="marvelWebPic" src={BRMPaddockPass} alt="BRM Paddock Pass Website" /></a>
@@ -144,11 +147,11 @@ function home() {
                     <div>
                     <h3>Chain Free Property Buyers</h3>
                     <br />
-                    <p className="proSmlDesc">Still in development</p>
-                    <p>A website for property buyers that allows customers to use the postcode lookup feature to request a quote for their property.</p><br />
+                    <p className="proSmlDesc">A live site.</p>
+                    <p>A website for property buyers that allows customers to use the postcode lookup feature to request a quote for their property. <br /> Using gravity forms, JavaScript and PHP, i have built a postcode lookup that searches for customer's addresses and pulls through their input to the next page.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="http://176.32.230.46/chainfree.co.uk/" target='_blank'><img className="marvelWebPic" src={ChainFree} alt="Chain Free Website" /></a>
+                    <a href="https://chainfreepropertybuyer.co.uk/" target='_blank'><img className="marvelWebPic" src={ChainFree} alt="Chain Free Website" /></a>
                     </div>
                 </ScrollAnimation>
                 </div>
@@ -173,11 +176,11 @@ function home() {
                     <div>
                     <h3>Mrs Wifey</h3>
                     <br />
-                    <p className="proSmlDesc">Still in development</p>
+                    <p className="proSmlDesc">A live site.</p>
                     <p>An E-Commerce website that I have built using WordPress and WooCommerce, a bridal online shop that sells clothes for the big day.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="http://176.32.230.11/mrswifey.co.uk/" target='_blank'><img className="marvelWebPic" src={MrsWifey} alt="Mrs Wifey Website" /></a>
+                    <a href="https://www.mrswifey.co.uk/" target='_blank'><img className="marvelWebPic" src={MrsWifey} alt="Mrs Wifey Website" /></a>
                     </div>
                 </ScrollAnimation>
                 </div>
@@ -193,7 +196,7 @@ function home() {
                     <p>An informational website that I have built using WordPress and WooCommerce for Julian Smith who featured on Brition's Got Talent in 2009.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="http://juliansmithsax.co.uk/" target='_blank'><img className="marvelWebPic" src={JulianSmith} alt="Julian Sax Website" /></a>
+                    <a href="https://juliansmithsax.co.uk/" target='_blank'><img className="marvelWebPic" src={JulianSmith} alt="Julian Sax Website" /></a>
                     </div>
                 </ScrollAnimation>
                
@@ -251,7 +254,7 @@ function home() {
                     <p>A brochure website to advertise the different services that Empire provides. Built on WordPress.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="http://empiress.co.uk/" target='_blank'><img className="marvelWebPic" src={EmpireSS} alt="Empire Website" /></a>
+                    <a href="https://empiress.co.uk/" target='_blank'><img className="marvelWebPic" src={EmpireSS} alt="Empire Website" /></a>
                     </div>
                 </ScrollAnimation>
                
@@ -261,7 +264,7 @@ function home() {
                     <h3>Handles at Heart</h3>
                     <br />
                     <p className="proSmlDesc">Still in development.</p>
-                    <p>An E-Commerce website for a company who sells various handles for doors, built with WordPress and WooCommerce.</p><br />
+                    <p>An E-Commerce website for a company who sells various handles for doors, built with WordPress and WooCommerce. <br /></p><br />
                     </div>
                     <div className="picContainer">
                     <a href="http://217.199.187.198/handlesatheart.co.uk/" target='_blank'><img className="marvelWebPic" src={HandlesatHeart} alt="Handles at Heart Website" /></a>
