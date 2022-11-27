@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-V2/static/css/main.189b7283.css",
-    "main.js": "/Portfolio-V2/static/js/main.7bd2549f.js",
+    "main.css": "/Portfolio-V2/static/css/main.70b38b6c.css",
+    "main.js": "/Portfolio-V2/static/js/main.e42d7ff1.js",
     "static/js/787.92650c8a.chunk.js": "/Portfolio-V2/static/js/787.92650c8a.chunk.js",
     "static/media/Portfolio.png": "/Portfolio-V2/static/media/Portfolio.257cfc52f06a73252ecc.png",
     "static/media/unapol-british.png": "/Portfolio-V2/static/media/unapol-british.22bba38342e3db5122cf.png",
@@ -26,12 +26,12 @@
     "static/media/Portfolio-V2.png": "/Portfolio-V2/static/media/Portfolio-V2.c73c216792767dad9458.png",
     "static/media/Tails-Adventure.png": "/Portfolio-V2/static/media/Tails-Adventure.885e9c63cf21319128a9.png",
     "index.html": "/Portfolio-V2/index.html",
-    "main.189b7283.css.map": "/Portfolio-V2/static/css/main.189b7283.css.map",
-    "main.7bd2549f.js.map": "/Portfolio-V2/static/js/main.7bd2549f.js.map",
+    "main.70b38b6c.css.map": "/Portfolio-V2/static/css/main.70b38b6c.css.map",
+    "main.e42d7ff1.js.map": "/Portfolio-V2/static/js/main.e42d7ff1.js.map",
     "787.92650c8a.chunk.js.map": "/Portfolio-V2/static/js/787.92650c8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.189b7283.css",
-    "static/js/main.7bd2549f.js"
+    "static/css/main.70b38b6c.css",
+    "static/js/main.e42d7ff1.js"
   ]
 }
