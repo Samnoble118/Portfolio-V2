@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-V2/static/css/main.70b38b6c.css",
-    "main.js": "/Portfolio-V2/static/js/main.e42d7ff1.js",
+    "main.js": "/Portfolio-V2/static/js/main.73eedaa9.js",
     "static/js/787.92650c8a.chunk.js": "/Portfolio-V2/static/js/787.92650c8a.chunk.js",
     "static/media/Portfolio.png": "/Portfolio-V2/static/media/Portfolio.257cfc52f06a73252ecc.png",
     "static/media/unapol-british.png": "/Portfolio-V2/static/media/unapol-british.22bba38342e3db5122cf.png",
@@ -9,6 +9,7 @@
     "static/media/Marvel-react-website.png": "/Portfolio-V2/static/media/Marvel-react-website.3800e5672455f3a8a0ec.png",
     "static/media/zircom.png": "/Portfolio-V2/static/media/zircom.afb44f6923a7f5f8430b.png",
     "static/media/Coffee-website-screenshot.png": "/Portfolio-V2/static/media/Coffee-website-screenshot.c4da49172c452db32d38.png",
+    "static/media/Handles-at-Heart.png": "/Portfolio-V2/static/media/Handles-at-Heart.32a721f0c6d335becbaf.png",
     "static/media/Brit-Floors.png": "/Portfolio-V2/static/media/Brit-Floors.532122077c827a32537b.png",
     "static/media/Mrs-Wifey.png": "/Portfolio-V2/static/media/Mrs-Wifey.ee3321b72e934c94cfc7.png",
     "static/media/empire-ss-website.png": "/Portfolio-V2/static/media/empire-ss-website.6fd00111cfb8820efc77.png",
@@ -20,18 +21,17 @@
     "static/media/Biowarehouse.png": "/Portfolio-V2/static/media/Biowarehouse.be438aa010f2ac80702f.png",
     "static/media/The-Coffee-Shop.png": "/Portfolio-V2/static/media/The-Coffee-Shop.b4baddb203e45a115645.png",
     "static/media/Julian-Smith.png": "/Portfolio-V2/static/media/Julian-Smith.4e0731e79c53d17840fd.png",
-    "static/media/Handles-at-Heart.png": "/Portfolio-V2/static/media/Handles-at-Heart.6df12d75b1cea3f6e803.png",
     "static/media/Sam-LinkdIn-Profile-pic.JPG": "/Portfolio-V2/static/media/Sam-LinkdIn-Profile-pic.610d8724b35cdf85bd3c.JPG",
     "static/media/Chain-free.png": "/Portfolio-V2/static/media/Chain-free.04d193bab88b27d0a701.png",
     "static/media/Portfolio-V2.png": "/Portfolio-V2/static/media/Portfolio-V2.c73c216792767dad9458.png",
     "static/media/Tails-Adventure.png": "/Portfolio-V2/static/media/Tails-Adventure.885e9c63cf21319128a9.png",
     "index.html": "/Portfolio-V2/index.html",
     "main.70b38b6c.css.map": "/Portfolio-V2/static/css/main.70b38b6c.css.map",
-    "main.e42d7ff1.js.map": "/Portfolio-V2/static/js/main.e42d7ff1.js.map",
+    "main.73eedaa9.js.map": "/Portfolio-V2/static/js/main.73eedaa9.js.map",
     "787.92650c8a.chunk.js.map": "/Portfolio-V2/static/js/787.92650c8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70b38b6c.css",
-    "static/js/main.e42d7ff1.js"
+    "static/js/main.73eedaa9.js"
   ]
 }
