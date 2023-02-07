@@ -95,6 +95,35 @@ function home() {
                 <p>Current projects that I have built and am currently building during my time as a Web Developer at Chameleon Web Services.</p>
             </div>
 
+            <div className="theProjectContainer">
+               
+
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Handles at Heart</h3>
+                    <br />
+                    <p className="proSmlDesc">A live site.</p>
+                    <p>An E-Commerce website for a company who sells various handles for doors, built with WordPress and WooCommerce. <br /> Over 13,000 products with specification that pulls through relvant information using ACF and conditional logic.</p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="https://www.handlesatheart.co.uk/" target='_blank'><img className="marvelWebPic" src={HandlesatHeart} alt="Handles at Heart Website" /></a>
+                    </div>
+                </ScrollAnimation>
+
+                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                    <div>
+                    <h3>Lifebuys</h3>
+                    <br />
+                    <p className="proSmlDesc">A live site</p>
+                    <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis. <br /> I used CSVs and XML to import and configure the product data. <br /><br /> </p><br />
+                    </div>
+                    <div className="picContainer">
+                    <a href="https://lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={LifeBuys} alt="Lifebuys Website" /></a>
+                    </div>
+                </ScrollAnimation>
+
+            </div>
+
                 <div className="theProjectContainer">
                 
                     
@@ -114,13 +143,13 @@ function home() {
 
                 <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
                     <div>
-                    <h3>Lifebuys</h3>
+                    <h3>Biowarehouse</h3>
                     <br />
-                    <p className="proSmlDesc">A live site</p>
-                    <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis. <br /> I used CSVs and XML to import and configure the product data. <br /><br /> </p><br />
+                    <p className="proSmlDesc">A live site.</p>
+                    <p>An E-Commerce website that I have built using WordPress and WooCommerce for a client who sells biodegrable products online.</p><br></br><br /><br /><br />
                     </div>
                     <div className="picContainer">
-                    <a href="https://lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={LifeBuys} alt="Lifebuys Website" /></a>
+                    <a href="https://www.biowarehouse.co.uk/" target='_blank'><img className="marvelWebPic" src={Biowarehouse} alt="Biowarehouse Website" /></a>
                     </div>
                 </ScrollAnimation>
                 </div>
@@ -161,13 +190,13 @@ function home() {
                     
                 <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
                     <div>
-                    <h3>Biowarehouse</h3>
+                    <h3>Unapolagetically British</h3>
                     <br />
                     <p className="proSmlDesc">A live site.</p>
-                    <p>An E-Commerce website that I have built using WordPress and WooCommerce for a client who sells biodegrable products online.</p><br />
+                    <p>An E-Commerce website built using WordPress and WooCommerce, for a client who sells unique clothing.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="https://www.biowarehouse.co.uk/" target='_blank'><img className="marvelWebPic" src={Biowarehouse} alt="Biowarehouse Website" /></a>
+                    <a href="https://unapol-brit.com/" target='_blank'><img className="marvelWebPic" src={UnapolBrit} alt="Unapolagetically British Website" /></a>
                     </div>
                 </ScrollAnimation>
                
@@ -217,17 +246,17 @@ function home() {
                 <div className="theProjectContainer">
                 
                     
-                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                {/* <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
                     <div>
                     <h3>Unapolagetically British</h3>
                     <br />
-                    <p className="proSmlDesc">Still in development.</p>
+                    <p className="proSmlDesc">A live site.</p>
                     <p>An E-Commerce website built using WordPress and WooCommerce, for a client who sells unique clothing.</p><br />
                     </div>
                     <div className="picContainer">
-                    <a href="http://79.170.40.247/unapol-brit.com/" target='_blank'><img className="marvelWebPic" src={UnapolBrit} alt="Unapolagetically British Website" /></a>
+                    <a href="https://unapol-brit.com/" target='_blank'><img className="marvelWebPic" src={UnapolBrit} alt="Unapolagetically British Website" /></a>
                     </div>
-                </ScrollAnimation>
+                </ScrollAnimation> */}
                
 
                 <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
@@ -243,34 +272,7 @@ function home() {
                 </ScrollAnimation>
                 </div>
 
-                <div className="theProjectContainer">
                 
-                    
-                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
-                    <div>
-                    <h3>Empire Security Services</h3>
-                    <br />
-                    <p className="proSmlDesc">A Live Site.</p>
-                    <p>A brochure website to advertise the different services that Empire provides. Built on WordPress.</p><br />
-                    </div>
-                    <div className="picContainer">
-                    <a href="https://empiress.co.uk/" target='_blank'><img className="marvelWebPic" src={EmpireSS} alt="Empire Website" /></a>
-                    </div>
-                </ScrollAnimation>
-               
-
-                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
-                    <div>
-                    <h3>Handles at Heart</h3>
-                    <br />
-                    <p className="proSmlDesc">Still in development.</p>
-                    <p>An E-Commerce website for a company who sells various handles for doors, built with WordPress and WooCommerce. <br /></p><br />
-                    </div>
-                    <div className="picContainer">
-                    <a href="http://217.199.187.198/handlesatheart.co.uk/" target='_blank'><img className="marvelWebPic" src={HandlesatHeart} alt="Handles at Heart Website" /></a>
-                    </div>
-                </ScrollAnimation>
-                </div>
 
             
             <div className="proIntoSec" id="personalProjects">
