@@ -115,7 +115,7 @@ function home() {
                     <h3>Lifebuys</h3>
                     <br />
                     <p className="proSmlDesc">A live site</p>
-                    <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis. <br /> I used CSVs and XML to import and configure the product data.<br /><br /> </p><br />
+                    <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis. <br /> I used CSVs and XML to import and configure the product data. <br /><br /> </p><br />
                     </div>
                     <div className="picContainer">
                     <a href="https://lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={LifeBuys} alt="Lifebuys Website" /></a>
