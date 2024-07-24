@@ -15,7 +15,7 @@ import SamNew from './Images/Sam-LinkdIn-Profile-pic.JPG';
 import PortfolioV2 from './Images/Portfolio-V2.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 import BritFloors from './Images/Brit-Floors.png';
-import LifeBuys from './Images/Lifebuys.png';
+// import LifeBuys from './Images/Lifebuys.png';
 import Biowarehouse from './Images/Biowarehouse.png';
 import MrsWifey from './Images/Mrs-Wifey.png';
 import JulianSmith from './Images/Julian-Smith.png';
@@ -110,17 +110,17 @@ function home() {
                     </div>
                 </ScrollAnimation>
 
-                <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
-                    <div>
-                    <h3>Lifebuys</h3>
-                    <br />
-                    <p className="proSmlDesc">A live site</p>
-                    <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis. <br /> I used CSVs and XML to import and configure the product data. <br /><br /> </p><br />
-                    </div>
-                    <div className="picContainer">
-                    <a href="https://lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={LifeBuys} alt="Lifebuys Website" /></a>
-                    </div>
-                </ScrollAnimation>
+                // <ScrollAnimation className="aProject" animateIn="fadeIn" delay='500' animateOnce='true'>
+                //     <div>
+                //     <h3>Lifebuys</h3>
+                //     <br />
+                //     <p className="proSmlDesc">A live site</p>
+                //     <p>An E-Commerce website that I have built using WordPress and WooCommerce, a huge online shopping store similar to John Lewis. <br /> I used CSVs and XML to import and configure the product data. <br /><br /> </p><br />
+                //     </div>
+                //     <div className="picContainer">
+                //     <a href="https://lifebuys.co.uk/" target='_blank'><img className="marvelWebPic" src={LifeBuys} alt="Lifebuys Website" /></a>
+                //     </div>
+                // </ScrollAnimation>
 
             </div>
 
